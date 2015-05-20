@@ -1,6 +1,13 @@
 # Calculator-Service
 Implementation of a really simple calculator without using eval() function
 
+### Usage:
+To install the packages and run tests: 
+```
+npm install
+npm install -g karma-cli
+karma start
+```
 ### Methods:
 - enterDigit(digit) - enter a digit of string, e.g. 'one'
 - enterOperation(operation) - operation is one character, e.g. '+'
